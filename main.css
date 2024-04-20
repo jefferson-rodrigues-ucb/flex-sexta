@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;/* Container flex*/
+    list-style: none; /*remove lista*/
+    background-color: aquamarine;
+    width: 50%; /*largura*/
+}
+
+.linha {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.coluna-rev {
+    flex-direction: column-reverse;
+}
+
+.container-maior {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.flex-container li {
+    background: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
